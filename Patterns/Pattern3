@@ -1,0 +1,29 @@
+Pattern - 3
+*****
+*****
+*****
+*****
+*****
+
+//code
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    int i,j,n;
+    cout<<"Enter the value for n: ";
+    cin>>n;
+    for(i=1;i<=n;i++) //here i represents  number of rows
+    { 
+        for(j=1;j<=n;j++) //here j represents number of columns
+        {
+            if(j<=n){
+                cout<<"*";
+            }
+            else{
+                cout<<" ";
+            }
+        }
+        cout<<endl;
+    }
+    return 0;
+}
